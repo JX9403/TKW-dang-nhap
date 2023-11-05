@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Header */
+.header{
+  height: 100px;
+  background-color: var(--color-white);
+  padding: 20px ;
+  position: relative;
+}
+.header-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.header-logo img{
+  width: auto;
+  height: 100%;
+}
+
+.header-search{
+  width: 500px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  
+}
+
+.header-search-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.8rem;
+  color: var(--color-black);
+}
+
+
+.header-search-input{
+  width:100%;
+  height: 100%;
+  border-radius: 8px;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  padding: 0 20px;
+  background-color: var(--color-pink);
+}
+.header-search-input:focus + .header-search-icon{
+  display: none;
+}
+.header-list ul{
+display: flex;
+width: 364px;
+padding: 0;
+justify-content: center;
+}
+.header-list li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  text-align: center;
+  cursor: pointer;
+  width:30% ;
+
+  
+}
+.header-list a{
+  width: 100%;
+  padding: 28px 0;
+}
+/* Khoa */
+
+
+
+/* End Khoa */
+.header-list a:hover{
+  color : var(--color-red);
+  text-decoration: none;
+}
+.header-noti{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header-noti:hover{
+  color: var(--color-red);
+}
+.header-noti i{
+  font-size: 2.6rem;
+}
+
+.header-acc{
+  width: 36px;
+  cursor: pointer;
+}
+.header-acc img{
+  width: 100%;
+}
+/* .header-noti-list{
+  
+} */
+
+
+/* End Header */
+
+/* Content */
+.log-in{
+padding-top: 120px ;
+padding-bottom: 280px;
+background-color: var(--color-pink);
+}
+
+.log-in .form{
+  padding: 60px 120px 30px 120px;
+  min-height: 580px;
+  width: 640px;
+}
+
+.log-in .form .form-forget{
+  text-align: center;
+  
+}
+
+.log-in .form .form-forget a{
+  color: var(--color-blue);
+  font-size: 1.6rem;
+  
+}
+/* End Content */
+
+/* Footer */
+.footer{
+  background-color: var(--color-white);
+}
+.footer-wrap{
+  padding: 34px 0;
+}
+.footer-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-red);
+  margin-bottom: 20px;
+}
+.footer-content-label{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.footer-content-desc{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.footer-content-map iframe{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+/* End Footer */

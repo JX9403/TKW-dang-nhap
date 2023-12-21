@@ -65,30 +65,9 @@ ul{
 
 }
 
-/* form dang ki */
-.register{
-  background-color: var(--color-pink);
-  padding: 30px 60px;
-  
-}
-
-.main{
-  display: flex;
-  justify-content: center;
-  
-  
-}
+/* form dang nhap */
 
 
-.form {
-  position: relative;
-  width:640px;
-  min-height: 600px;
-  padding: 60px 60px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
-}
 .exit{
   position: absolute;
   top: 28px;
